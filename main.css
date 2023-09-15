@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	scroll-behavior:smooth;
+}
+.btn:hover{
+	background-color:black;
+	color:white;
+	border-radius:5px;
+	transition: 0.7s;
+	padding: 10px 30px;
+	font-display: auto;
+	font-size: 20px;
+	box-shadow: 0px 1px 32px 0px rgba(0, 0, 0, 0.3);
+	text-shadow: 1px 20px 10px 0px rgba(1, 1, 1 ,0.3)
+}
+.font{
+	font-size: 20px;
+	font:oblique;
+	color: black;
+	font-family: 'PT Serif', serif;
+}
+.font:hover{
+	font-size:30px;
+	transition: 0.7s;
+	color:#DC3545;
+	padding:20px 10px;
+	background-color:white;
+	border-radius: 10px;
+	font-family: 'Playfair Display', serif;
+}
+.card-img{
+	background-image: url("adventure-time-jake-the-dog-4k-xu.jpg");
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	height:500px;
+	margin-top: 10px;
+}
+#Link1{
+	padding:auto;
+}
+.row{
+		background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	height: 100%;
+}
+.marquee{
+	padding:30px ;
+	background-color:white;
+	marquee-speed: fast;
+}
+.fin{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.button {
+	font-size:20px;
+	line-height: 3;
+	padding:0px 10px;
+	color:white;
+	margin: 30px;
+}
+.button:hover{
+	transition:0.6s;
+	padding: 0px 15px;
+	background-color:#F25816;
+	color: white;
+	border-radius: 10px;
+}
+.font1{
+	font-size: 20px;
+	font:oblique;
+	color: black;
+	font-family: 'PT Serif', serif;
+	
+}
+.font1:hover{
+	font-size:30px;
+	transition: 0.7s;
+	color:#DC3545;
+	padding:20px 10px;
+	border-radius: 10px;
+	font-family: 'Playfair Display', serif;
+}
+.font2:hover{
+	font-size:30px;
+	transition: 0.7s;
+	color:#DC3545;
+	padding:20px 10px;
+	border-radius: 10px;
+	font-family: 'Playfair Display', serif;
+	color:red;
+}
+.card:hover{
+	color:#DC3545;
+	background-color:#FFF7F7;
+	transition: 0.8s;
+	box-shadow: 0px 1px 32px 0px rgba(0, 0, 0, 0.3);
+	text-shadow: 1px 20px 10px 0px rgba(1, 1, 1 ,0.3)
+}
+.jumbotron{
+	padding-top: 50px; 
+}
+.footer-copyright{
+	margin:auto;
+	background-color:#F5C27A;
+}
+.bt{
+	outline-color: #FFFFFF;
+	outline-style: solid;
+	padding: 10px 10px;
+	font-display: auto;
+}
+.bt:hover{
+	background-color:white;
+	color:black;
+	transition: 0.8s;
+	padding: 10px 30px;
+	font-display: auto;
+	font-size: 20px;
+	box-shadow: 0px 1px 32px 0px rgba(0, 0, 0, 0.3);
+	text-shadow: 1px 20px 10px 0px rgba(1, 1, 1 ,0.3)
+}
